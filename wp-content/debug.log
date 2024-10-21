@@ -1,0 +1,114 @@
+[21-Oct-2024 11:16:46 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php:6
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(678): do_action('after_setup_the...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\admin.php(34): require_once('C:\\Users\\conta\\...')
+#7 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\themes.php(10): require_once('C:\\Users\\conta\\...')
+#8 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php on line 6
+[21-Oct-2024 11:16:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[21-Oct-2024 11:16:46 UTC] PHP Stack trace:
+[21-Oct-2024 11:16:46 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Oct-2024 11:16:46 UTC] PHP   2. WP_Recovery_Mode->handle_error($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Carbon_Fields\\Carbon_Fields" not found in C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php:6\nStack trace:\n#0 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(324): {closure}(\'\')\n#1 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\n#2 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\plugin.php(517): WP_Hook->do_action(Array)\n#3 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-set'..., 'file' => 'C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php', 'line' => 6]) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-fatal-error-handler.php:55
+[21-Oct-2024 11:16:46 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 1, 'message' => 'Uncaught Error: Class "Carbon_Fields\\Carbon_Fields" not found in C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php:6\nStack trace:\n#0 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(324): {closure}(\'\')\n#1 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\n#2 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\plugin.php(517): WP_Hook->do_action(Array)\n#3 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-set'..., 'file' => 'C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php', 'line' => 6], $extension = ['type' => 'theme', 'slug' => 'lrgp']) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode.php:185
+[21-Oct-2024 11:16:46 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 1, 'message' => 'Uncaught Error: Class "Carbon_Fields\\Carbon_Fields" not found in C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php:6\nStack trace:\n#0 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(324): {closure}(\'\')\n#1 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\n#2 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\plugin.php(517): WP_Hook->do_action(Array)\n#3 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-set'..., 'file' => 'C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php', 'line' => 6], $extension = ['type' => 'theme', 'slug' => 'lrgp']) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php:62
+[21-Oct-2024 11:16:46 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'lrgp']) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php:150
+[21-Oct-2024 11:16:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[21-Oct-2024 11:16:46 UTC] PHP Stack trace:
+[21-Oct-2024 11:16:46 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Oct-2024 11:16:46 UTC] PHP   2. WP_Recovery_Mode->handle_error($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Carbon_Fields\\Carbon_Fields" not found in C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php:6\nStack trace:\n#0 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(324): {closure}(\'\')\n#1 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\n#2 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\plugin.php(517): WP_Hook->do_action(Array)\n#3 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-set'..., 'file' => 'C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php', 'line' => 6]) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-fatal-error-handler.php:55
+[21-Oct-2024 11:16:46 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 1, 'message' => 'Uncaught Error: Class "Carbon_Fields\\Carbon_Fields" not found in C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php:6\nStack trace:\n#0 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(324): {closure}(\'\')\n#1 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\n#2 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\plugin.php(517): WP_Hook->do_action(Array)\n#3 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-set'..., 'file' => 'C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php', 'line' => 6], $extension = ['type' => 'theme', 'slug' => 'lrgp']) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode.php:185
+[21-Oct-2024 11:16:46 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 1, 'message' => 'Uncaught Error: Class "Carbon_Fields\\Carbon_Fields" not found in C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php:6\nStack trace:\n#0 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(324): {closure}(\'\')\n#1 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\n#2 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-includes\\plugin.php(517): WP_Hook->do_action(Array)\n#3 C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-set'..., 'file' => 'C:\\Users\\conta\\Developpement\\sidev\\lrgp\\wp-content\\themes\\lrgp\\functions.php', 'line' => 6], $extension = ['type' => 'theme', 'slug' => 'lrgp']) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php:62
+[21-Oct-2024 11:16:46 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'lrgp']) C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php:150
+[21-Oct-2024 11:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Env\env() in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\inc\smtp.php:7
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}(Object(PHPMailer\PHPMailer\PHPMailer))
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\pluggable.php(540): do_action_ref_array('phpmailer_init', Array)
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php(225): wp_mail(Array, '[LRGP] Votre si...', 'Bonjour\xC2\xA0!\r\n\r\nW...', Array, Array)
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode-email-service.php(62): WP_Recovery_Mode_Email_Service->send_recovery_mode_email(86400, Array, Array)
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-recovery-mode.php(185): WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email(86400, Array, Array)
+#7 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-fatal-error-handler.php(55): WP_Recovery_Mode->handle_error(Array)
+#8 [internal function]: WP_Fatal_Error_Handler->handle()
+#9 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\inc\smtp.php on line 7
+[21-Oct-2024 11:18:57 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php:6
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(678): do_action('after_setup_the...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\admin.php(34): require_once('C:\\Users\\conta\\...')
+#7 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\themes.php(10): require_once('C:\\Users\\conta\\...')
+#8 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php on line 6
+[21-Oct-2024 11:18:57 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php:6
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(678): do_action('after_setup_the...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-blog-header.php(13): require_once('C:\\Users\\conta\\...')
+#7 C:\Users\conta\Developpement\sidev\lrgp\index.php(17): require('C:\\Users\\conta\\...')
+#8 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php on line 6
+[21-Oct-2024 11:19:01 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php:6
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(678): do_action('after_setup_the...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\admin.php(34): require_once('C:\\Users\\conta\\...')
+#7 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\themes.php(10): require_once('C:\\Users\\conta\\...')
+#8 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php on line 6
+[21-Oct-2024 11:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php:6
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(678): do_action('after_setup_the...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\admin.php(34): require_once('C:\\Users\\conta\\...')
+#7 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\themes.php(10): require_once('C:\\Users\\conta\\...')
+#8 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php on line 6
+[21-Oct-2024 11:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php:6
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(678): do_action('after_setup_the...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-blog-header.php(13): require_once('C:\\Users\\conta\\...')
+#7 C:\Users\conta\Developpement\sidev\lrgp\index.php(17): require('C:\\Users\\conta\\...')
+#8 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\functions.php on line 6
+[21-Oct-2024 11:25:20 UTC] PHP Fatal error:  Uncaught Error: Class "Container" not found in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\inc\admin\pages\page-options.php:5
+Stack trace:
+#0 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): {closure}('')
+#1 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\conta\Developpement\sidev\lrgp\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action('carbon_fields_r...')
+#4 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(324): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\conta\Developpement\sidev\lrgp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\conta\Developpement\sidev\lrgp\wp-settings.php(700): do_action('init')
+#8 C:\Users\conta\Developpement\sidev\lrgp\wp-config.php(36): require_once('C:\\Users\\conta\\...')
+#9 C:\Users\conta\Developpement\sidev\lrgp\wp-load.php(50): require_once('C:\\Users\\conta\\...')
+#10 C:\Users\conta\Developpement\sidev\lrgp\wp-admin\admin.php(34): require_once('C:\\Users\\conta\\...')
+#11 {main}
+  thrown in C:\Users\conta\Developpement\sidev\lrgp\wp-content\themes\lrgp\inc\admin\pages\page-options.php on line 5
